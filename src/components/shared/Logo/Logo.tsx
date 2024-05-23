@@ -2,6 +2,7 @@ import React from "react";
 import { LogoContainer } from "./Logo";
 import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
+
 function Logo() {
   return (
     <LogoContainer>
