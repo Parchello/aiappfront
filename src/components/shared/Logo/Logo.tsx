@@ -1,12 +1,11 @@
-import React from "react";
-import { LogoContainer } from "./Logo";
-import { Link } from "react-router-dom";
+import { LogoContainer, LogoLink } from "./Logo";
+// import { Link } from "react-router-dom";
 import { Typography } from "@mui/material";
 
 function Logo() {
   return (
     <LogoContainer>
-      <Link to={"/"}>
+      <LogoLink to={"/"}>
         <img
           src="icons8-chatbot-94.png"
           alt="chatbotlogo"
@@ -28,7 +27,7 @@ function Logo() {
           <span>MY</span>
           -GPT
         </Typography>
-      </Link>
+      </LogoLink>
     </LogoContainer>
   );
 }

@@ -1,6 +1,5 @@
 import { AppBar, Toolbar } from "@mui/material";
 import Logo from "./shared/Logo/Logo.tsx";
-import React from "react";
 import { useAuth } from "../context/AuthContext.tsx";
 import NaivgationLink from "./shared/NavigationLink/NavigationLink.tsx";
 
