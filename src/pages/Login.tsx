@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 function Login() {
   return (
@@ -10,7 +10,41 @@ function Login() {
           style={{ width: "400px", height: "700px" }}
         />
       </Box>
-      <Box>12345</Box>
+      <Box
+        display={"flex"}
+        flex={{ xs: 1, md: 0.5 }}
+        justifyContent={"center"}
+        alignItems={"center"}
+        ml={"auto"}
+        mt={16}
+      >
+        <form
+          style={{
+            margin: "auto",
+            padding: "30px",
+            boxShadow: "10px 10px 20px #000",
+            borderRadius: "10px",
+            border: "none",
+          }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <Typography
+              variant="h4"
+              textAlign="center"
+              padding={2}
+              fontWeight={600}
+            >
+              LOGIN
+            </Typography>
+          </Box>
+        </form>
+      </Box>
     </Box>
   );
 }
