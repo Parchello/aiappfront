@@ -16,7 +16,7 @@ const CostomiseInput = (props: Props) => {
       type={props.type}
       inputProps={{
         style: {
-          width: "300px",
+          width: "400px",
           borderRadius: 10,
           fontSize: 20,
           color: "white",
