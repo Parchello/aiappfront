@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import CostomiseInput from "../components/shared/CostomiseInput/CostomiseInput";
 
 function Login() {
   return (
@@ -42,6 +43,8 @@ function Login() {
             >
               LOGIN
             </Typography>
+            <CostomiseInput type="email" name="email" label="email" />
+            <CostomiseInput type="password" name="password" label="password" />
           </Box>
         </form>
       </Box>
