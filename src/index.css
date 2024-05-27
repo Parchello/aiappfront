@@ -25,3 +25,8 @@ h1 {
 .image-inverted {
   filter: invert(100%);
 }
+
+.MuiOutlinedInput-input-root.Mui-focuse,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}

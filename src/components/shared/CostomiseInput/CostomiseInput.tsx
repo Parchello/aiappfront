@@ -9,6 +9,7 @@ type Props = {
 const CostomiseInput = (props: Props) => {
   return (
     <TextField
+      margin="normal"
       InputLabelProps={{ style: { color: "white" } }}
       name={props.name}
       label={props.label}
